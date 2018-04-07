@@ -26,7 +26,7 @@ public class Test3 {
     public static void main(String[] args){
     	Test3 a = new Test3();
     	boolean result = a.checkSam("this is is is Nowcoder", "is this is is Nowcoder");
-    	if(result == true)
+    	if(result)
     		System.out.println("true");
     	else
     		System.out.println("false");
